@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7116981350193685591}
   m_Layer: 0
   m_Name: FoodGenerator
-  m_TagString: Untagged
+  m_TagString: FoodGenerator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,8 +123,7 @@ MonoBehaviour:
     type: 3}
   SpotToSpawn: {fileID: 5318984959651271143}
   SpawnRate: 1
-  SpawnGap: 0.1
-  MaxFoodAmount: 3
+  SpotsArray: []
 --- !u!1 &5318984959651271143
 GameObject:
   m_ObjectHideFlags: 0
